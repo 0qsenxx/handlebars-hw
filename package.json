@@ -1,0 +1,19 @@
+{
+  "name": "handlebars-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "0qsenxx",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "parcel": "^2.11.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-transformer-hbs": "^1.0.4"
+  }
+}
