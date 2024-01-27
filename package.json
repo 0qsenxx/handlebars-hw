@@ -2,7 +2,7 @@
   "name": "handlebars-hw",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/0qsenxx/handlebars-hw",
+  "homepage": "https://0qsenxx.github.io/handlebars-hw/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
