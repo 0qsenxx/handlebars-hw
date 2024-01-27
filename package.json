@@ -2,15 +2,19 @@
   "name": "handlebars-hw",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://github.com/0qsenxx/handlebars-hw",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /handlebars-hw",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "0qsenxx",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "handlebars": "^4.7.8",
     "parcel": "^2.11.0",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
