@@ -24,3 +24,5 @@ highPticeButtonRef.addEventListener("click", () => {
   const markup = template({ items: sortProducts });
   mainRef.innerHTML = markup;
 });
+
+console.log('hello');
