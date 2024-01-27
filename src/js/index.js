@@ -1,4 +1,4 @@
-import Handlebars from "../../node_modules/handlebars";
+import Handlebars from "handlebars";
 import { appleProducts } from "./appleProducts";
 import template from "../template/appleProductsList.hbs";
 
